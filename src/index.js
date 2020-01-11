@@ -25,9 +25,4 @@ app.use('/users', routes.user)
 app.use('/messages', routes.message)
 
 
-
-
-
-
-
 app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
