@@ -1,10 +1,8 @@
 import routes from './routes';
 import models from './models';
-import uuidv4 from 'uuid/v4';
 import 'dotenv/config';
 import cors from 'cors';
 import express from 'express';
-//import { request } from 'http';
 
 const app = express();
 const PORT = process.env.PORT || 5000
